@@ -1,0 +1,19 @@
+.CustomButton {
+    background-color: #0088a6;
+    padding: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    color: #fff;
+    border: none;
+    min-height: 30px;
+    width: 140px;
+    font-size: 10px;
+    /* border: 1px solid red; */
+    outline: none ;
+  }
+
+  .CustomButton a {
+    text-decoration: none;
+  }

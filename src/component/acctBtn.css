@@ -1,0 +1,15 @@
+.acctBtn {
+    /* background-color: #0088a6; */
+    padding: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    color: #212121;
+    border: none;
+    min-height: 30px;
+    width: 190px;
+    font-size: 10px;
+    border: 1px solid #0671E0;
+    ;
+  }
