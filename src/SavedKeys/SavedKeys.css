@@ -1,0 +1,14 @@
+.vault.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.vault.header h1:first-of-type {
+  margin-right: 20px;
+}
+
+.vault.header h1:last-of-type {
+  margin-left: 20px;
+}
