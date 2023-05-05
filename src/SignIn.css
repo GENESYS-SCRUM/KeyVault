@@ -1,0 +1,48 @@
+.welcomePage {
+    position: relative;
+    /* height: 100px; */
+}
+
+.sqaure {
+    width: 40vw;
+    height: 90vw;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    margin-top: 20px;
+    background: white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+     rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.sqaureContext {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sqaureContext h2 {
+    /* border: 2px solid red ;   */
+    font-size: 20px;
+}
+.sqaureContext p {
+    text-align: center;
+    font-size: 12px;
+    /* border: 2px solid red ; */
+    width: 300px; 
+    /* margin-top: -2px; */
+    color: #212121;
+}
+
+.encrypt {
+    width: 160px;
+    padding: 15px;
+    /* margin-top: -15px; */
+}
+
+.SignInBtn {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    width: 300px;
+    margin-top: 40px;
+}
