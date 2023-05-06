@@ -5,6 +5,7 @@ import AddKey from "./AddKey/AddKey";
 import SignIn from "./SignIn";
 import CreateAccount from "./component/CreateAccount";
 import Nav from "./component/Nav";
+import Logs from "./component/Logs";
 
 function App() {
   return (
@@ -14,12 +15,14 @@ function App() {
       <Routes>
         <Route path="/" element={<SignIn />} />
         <Route path="/CreateAccount" element={<CreateAccount />} />
+        <Route path="/Logs" element={<Logs/>} />
         <Route path="/" element={<SavedKeys />} />
         <Route path="/addkey" element={<AddKey />} />
       </Routes>
 
       {/* <CreateAccount/> */}
     </div>
+
   );
 }
 

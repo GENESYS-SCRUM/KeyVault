@@ -1,0 +1,70 @@
+.LoginPage{
+    position: relative;
+}
+
+.sqaurx {
+    width: 40vw;
+    height: 90vh;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    margin-top: 20px;
+    background: white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+     rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.heading h2 {
+    margin-left: 25px;
+}
+
+.form-log{
+    background-color: #fff;
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 30px 20px;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+    margin-top: -3px;
+}
+
+.form-control-log {
+    text-align: left;
+    margin-bottom: 25px;
+}
+
+.form-control-log label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.form-control-log input,
+.form-control-log select,
+.form-control-log textarea {
+    border: 1px solid #777;
+    border-radius: 2px;
+    font-family: inherit;
+    padding: 10px;
+    display: block;
+    width: 95%;
+    background-color: #EEF5FC;
+    border-radius: 8px;
+}
+
+button{
+    background-color: #EEF5FC;
+    border: 1px solid #777;
+    border-radius: 8px;
+    font-family: inherit;
+    font-size: 21px;
+    display: block;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.logInWith{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
