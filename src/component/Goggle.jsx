@@ -1,10 +1,12 @@
 import React from 'react'
 // import "./CustomButton.css";
 import "./acctBtn.css"
+import { Link } from 'react-router-dom';
 
 function Goggle() {
   return (
-    <button className='acctBtn'>Goggle</button>
+    <Link to="/addkey"><button className='acctBtn'>Goggle</button></Link>
+    
   )
 }
 

@@ -2,7 +2,7 @@ import React from "react";
 import "./SignIn.css";
 // import Nav from "./component/Nav";
 import encrypt from "../src/images/encrypt.png";
-import SignUp from "./component/SignUp";
+import SignUp from "./component/SignUpButton";
 import Login from "./component/Login";
 
 function SignIn() {
