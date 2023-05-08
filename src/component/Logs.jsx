@@ -32,9 +32,9 @@ function Logs() {
 						</button>
 
 						<div className="logInWith">
-							<div className="tinLine"></div>
+							<div className="lilLine"></div>
 							<h6>Or Log in with</h6>
-							<div className="tinLine"></div>
+							<div className="lilLine"></div>
 						</div>
 
 						<div className="Btn">

@@ -68,3 +68,25 @@ button{
     justify-content: space-around;
 }
 
+.lilLine{
+    width: 145px;
+    height: 1px;
+    color: red;
+    background-color: #ABBED1;
+}
+
+.Btn {
+    display: flex;
+    width: 395px;
+    height: 50px;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: -15px;
+}
+
+.bottom{
+    margin-top: 40px;
+    font-size: 8px;
+    text-align: center;
+    color: #212121;
+}
